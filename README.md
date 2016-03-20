@@ -1,8 +1,8 @@
 # Bitops Lab
 
-Second-year style **bit manipulation** drills in C — the kind of practice that showed up around digital logic / computer organization in the computer organization fundamentals.
+**Bit manipulation** drills in C — set, clear, toggle, count set bits, pretty-print binary.
 
-Practice: set a bit, clear a bit, toggle, count set bits, and pretty-print binary.
+Useful practice for digital logic / computer organization fundamentals.
 
 ```bash
 gcc bitops.c -o bitops && ./bitops
