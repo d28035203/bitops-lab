@@ -1,11 +1,20 @@
-# Bitops Lab
+# Register Rodeo
 
-**Bit manipulation** drills in C — set, clear, toggle, count set bits, pretty-print binary.
+Bit-level drills in C: set, clear, toggle, test, and popcount on 32-bit words, plus pretty binary printing.
 
-Useful practice for digital logic / computer organization fundamentals.
+## Build
 
 ```bash
-gcc bitops.c -o bitops && ./bitops
+make
+./bitops demo
+./bitops show 0xF0
+./bitops set 0 3
+./bitops toggle 8 3
+./bitops popcount 255
 ```
 
-MIT · 2016
+Bits are numbered 0..31 (0 = LSB).
+
+## License
+
+MIT
